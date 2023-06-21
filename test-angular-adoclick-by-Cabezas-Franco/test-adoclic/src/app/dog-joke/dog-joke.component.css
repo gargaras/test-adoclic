@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.inner {
+  width: 80%;
+  background: gold;
+  margin: auto;
+  margin-top: 0; /* 100%-80%/2 */
+}
+
+.dog-joke-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dog-image {
+    width: 50%;
+    object-fit: cover;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    overflow: visible;
+    margin-bottom: -40px;
+  }
+  
+  .joke-details {
+    text-align: left;
+  }
+  
+  button {
+    padding: 1px 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    border-color: grey;
+    text-align: center;
+  }
+  

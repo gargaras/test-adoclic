@@ -1,0 +1,11 @@
+    <div class="inner">
+        <div class="dog-joke-container">
+            <img [src]="dogImageUrl" alt="Imagen de perro" class="dog-image">
+            <div class="joke-details">
+              <h2 class="joke-setup">{{ jokeSetup }}</h2>
+              <p class="joke-punchline">{{ jokePunchline }}</p>
+              <button (click)="manualUpdate()"><p *ngIf="updateTimerSubscription" class="timer">{{ timeRemaining }} seconds.</p></button>
+            </div>
+        </div>
+    </div>
+
